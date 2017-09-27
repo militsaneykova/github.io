@@ -8,7 +8,7 @@
  position: absolute;
  text-align: center;
  margin:0px;
-  left: 0;
+ left: 0;
 }
 ul li {
   display: inline-block;
@@ -79,7 +79,7 @@ ul li:hover{
   display: inline-block;
 }
 #picture img{
-  width:685px;
+  width: 685px;
   height: 900px;
   filter: grayscale(100%);
 }
@@ -141,7 +141,21 @@ ul li:hover{
   height: 750px;
   background-color: white;
   position: relative;
+ 
 }
+.pictures{
+  width: 500px;
+  height: 750px;
+  margin-left: 800px;
+}
+.pic{
+  margin-top: 70px; 
+  width: 33%;
+  height: 40px;
+  margin-left: 30px;
+  box-shadow: 10px 10px 5px #888888;  
+  }
+
 .aboutMe h2{
   margin-top: 5%;
   font-size: 50px;
@@ -152,15 +166,30 @@ ul li:hover{
   width: 80px;
   height: 100px;
 }
-#firstImg{
-  padding-left: 850px;
+#firstImg, #thirdImg, #secondImg{
+  width: 80px;
+  height: 70px;
+  filter: grayscale(100%);  
 }
-#thirdImg{
-  padding-left: 80px;
+#express{
+  width: 80px;
+  height: 80px;
 }
-#secondImg{
-  padding-left:  80px;
-  padding-top: 400px;
+#ajax{
+   width:100px;
+   height: 90px;
+ }
+#ruby{
+  width: 110px;
+  height:100px; 
+  }
+#moca, #heroku {
+  width: 190px;
+  height: 100px;
+}
+#nodejs {
+  width: 110px;
+  height: 75px;
 }
 #paragrapf p{
   float: left;
@@ -185,16 +214,16 @@ ul li:hover{
   font-family: 'EB Garamond', serif;
   padding: 3%;
   line-height: 27px;
+  flex: 1;
 }
 .contact{
-  margin-top: 25%;
-  margin-bottom: 10%;
+  margin-top: 15%;
   width: 1500px;
-  height: 300px;
+  height: 50px;
   text-align: center;
 }
 .contactForm #name,#phone,#email {
-  padding: 15px;
+  padding: 10px;
   margin-top: 15px;
   text-align: left;
   overflow: hidden;
@@ -202,26 +231,26 @@ ul li:hover{
 }
 .contactForm #message{
   margin-top: 5px;
-  padding-left: 15px;
-  width: 465px;
-  height: 200px;
+  padding-left: 10px;
+  margin-left: 10px;
+  width: 440px;
+  height: 100px;
   box-shadow: 10px 10px 5px #888888;
+  text-overflow: clip;
 }
 .contact h2{
   font-family: 'EB Garamond', serif;
   font-size: 30px;
-  padding: 25px;
 }
 #submit{
   width: 100px;
   height: 70px;
-  margin-left: 390px;
+  margin-left: 355px;
   box-shadow: 10px 10px 5px #888888;
 }
 .menu-section{
    text-align: center;
    padding-top: 50px;
-   background: #f1f1f1;
   }
 
 .showOnScreen {
@@ -245,14 +274,24 @@ ul li:hover{
 
 .menu-section img{
   width: 45px;
-  height: 48px;
+  height: 28px;
   overflow: hidden;
+}
+.fcontent{
+  margin-left: 120px;
 }
 #f {
   height: 25px;
   width: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
-.menu-section{
-  margin-top: 150px;
+#ln{
+  height: 50px;
+  width: 55px;
+  padding-bottom: 35px;
+}
+#git{
+  height: 60px;
+  weight: 30px;
+  padding-bottom:30px;
 }
