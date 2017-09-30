@@ -8,7 +8,7 @@
  position: absolute;
  text-align: center;
  margin:0px;
-  left: 0;
+ left: 0;
 }
 ul li {
   display: inline-block;
@@ -79,15 +79,17 @@ ul li:hover{
   display: inline-block;
 }
 #picture img{
-  width:685px;
+  width: 685px;
   height: 900px;
   filter: grayscale(100%);
+  /* add this  */
+  position: relative;
 }
+/* text inside of the project box */
 .projects{
   width: 100%;
   text-align: center;
   padding: 5px;
-  /* position: relative; */
 }
 #project1, #project2, #project3, #project4, #project5, #project6{
   width: 33%;
@@ -96,7 +98,6 @@ ul li:hover{
   display: inline-block;
   color:white;
   overflow: hidden;
-  position: relative;
 }
 .projects #project1 img{
   filter: grayscale(100%);
@@ -106,7 +107,7 @@ ul li:hover{
   filter: grayscale(0);
   transition: 1s ease-in-out;
 }
-.projects #project2 img{
+.projects #project2 img {
    filter: grayscale(100%);
 }
 .projects #project3 img{
@@ -130,23 +131,31 @@ ul li:hover{
   height: 300px;
 }
 #project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p{
-  position: absolute;
   font-size: 25px;
-  width: 10px;
-  height: 10px;
-  /* top: 30px; */
 }
-#map iframe{
+
+/* #map iframe{
   width: 100%;
   height: 400px;
-  filter: grayscale(100%);
-}
+  /* filter: grayscale(100%); 
+} */
 .aboutMe{
   width: 100%;
   height: 750px;
   background-color: white;
   position: relative;
 }
+/* .pictures{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;  
+  /* margin-left: 800px; */
+/* } */
+ .pic{
+  width: 90px;;
+  height: 120px; 
+  }  
 .aboutMe h2{
   margin-top: 5%;
   font-size: 50px;
@@ -157,76 +166,133 @@ ul li:hover{
   width: 80px;
   height: 100px;
 }
-#firstImg{
-  padding-left: 850px;
+.js, .html, .css, .node, .ruby, .rails, .ajax, .sql, .express, .react, .jquery, .heroku{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  filter: grayscale(100%);  
 }
-#thirdImg{
-  padding-left: 80px;
+.js:hover ,.html:hover, .css:hover, .node:hover, .ruby:hover, .rails:hover, .ajax:hover, .sql:hover, .express:hover, .react:hover, .jquery:hover, .heroku:hover{
+  filter: grayscale(0);
+  transition: 1s ease-in-out;
 }
-#secondImg{
-  padding-left:  80px;
-  padding-top: 400px;
+.html, .css, .node, .ruby, .rails, .ajax, .sql, .express, .react, .jquery, .heroku{
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.skill_col_1{
+  margin-top: 50px;
+  width: 800px;;
+  height: 500px;
+  display: flex; 
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  margin-left: 250px;
+}
+#firstImg, #thirdImg, #secondImg{
+  width: 70px;
+  height: 75px;
+}
+#postgresql{
+  height: 85px;
+  width: 70px;
+}
+#rubyonrails{
+  width: 100px;
+  height: 80px;;
+}
+#express{
+  width: 80px;
+  height: 80px;
+}
+#ajax{
+   width:100px;
+   height: 80px;
+ }
+#ruby{
+  width: 60px;
+  height:75px; 
+}
+ #react{
+  width: 80;
+  height: 70 ; 
+ } 
+ #heroku {
+  width: 120px;
+  height: 75px;
+}
+#nodejs {
+  width: 110px;
+  height: 75px;
+}
+.pic{
+  width: 70px;
+  height: 80px;
 }
 #paragrapf p{
   float: left;
   padding: 5px;
 }
+
 .clearfix :before ,
 .clearfix :after{
   display: inline-block;
   content: " ";
   clear: both;
 }
-#paragrapf{
+/* #paragrapf{
   position: absolute;
   background-color: rgba(0, 0, 0, 0.1);
-  height:700px;
-  width: 500px;
+  height:500px;
+  width: 1200px;;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 5px;
   margin-bottom: 5%;
   box-shadow: 10px 10px 5px #888888;
   font-size: 20px;
   font-family: 'EB Garamond', serif;
   padding: 3%;
   line-height: 27px;
-}
-.contact{
-  margin-top: 25%;
-  margin-bottom: 10%;
-  width: 1500px;
-  height: 300px;
+  flex: 1;
   text-align: center;
-}
-.contactForm #name,#phone,#email {
-  padding: 15px;
+} */
+/* .contact{
+  margin-top: 15%;
+  width: 1500px;
+  height: 50px;
+  text-align: center;
+} */
+/* .contactForm #name,#phone,#email {
+  padding: 10px;
   margin-top: 15px;
   text-align: left;
   overflow: hidden;
   box-shadow: 10px 10px 5px #888888;
-}
-.contactForm #message{
+} */
+/* .contactForm #message{
   margin-top: 5px;
-  padding-left: 15px;
-  width: 465px;
-  height: 200px;
+  padding-left: 10px;
+  margin-left: 10px;
+  width: 440px;
+  height: 100px;
   box-shadow: 10px 10px 5px #888888;
-}
-.contact h2{
+  text-overflow: clip;
+} */
+/* .contact h2{
   font-family: 'EB Garamond', serif;
   font-size: 30px;
-  padding: 25px;
 }
 #submit{
   width: 100px;
   height: 70px;
-  margin-left: 390px;
+  margin-left: 355px;
   box-shadow: 10px 10px 5px #888888;
-}
+} */
 .menu-section{
    text-align: center;
    padding-top: 50px;
-   background: #f1f1f1;
   }
 
 .showOnScreen {
@@ -250,14 +316,48 @@ ul li:hover{
 
 .menu-section img{
   width: 45px;
-  height: 48px;
+  height: 28px;
   overflow: hidden;
+}
+.fcontent{
+  width: 100%;
+  height: 40px;
+  padding-top:40px;
+  text-align: center;
 }
 #f {
   height: 25px;
   width: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
-.menu-section{
-  margin-top: 150px;
+#ln{
+  height: 50px;
+  width: 55px;
+  padding-bottom: 35px;
+}
+#git{
+  height: 60px;
+  weight: 30px;
+  padding-bottom:30px;
+}
+.skills{
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+.project_name{
+  font-size: 20px;
+  /* position: absolute;  */
+  left: 10px; 
+  top: 100px; 
+  transition: top 0.2s linear; 
+  color: #fff; 
+  font: 24px Arial; 
+  text-transform: uppercase; 
+  letter-spacing: -1px;
+}
+
+.col_2{
+  display: flex;
+  flex-direction: column;
 }
