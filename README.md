@@ -1,6 +1,6 @@
 # Portfolio - Militsa Neykova
 
-*My portfolio  [here](ttps://militsaneykova.com)*
+*My portfolio  [:](ttps://militsaneykova.com)*
 ![Image](https://militsaneykova.com)
 
 ## Technologies Used
@@ -30,8 +30,7 @@
    0% {  left: -1200px; }
   100% { left: -400px; }
 }
-
-
+```
 
 
 ## Future Improvements
