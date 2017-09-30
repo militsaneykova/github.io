@@ -33,7 +33,7 @@
 ```
 
 
-## Future Improvements
+## Future Implementations
 
 * Page for each Project
 * Responsive Design
