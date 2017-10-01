@@ -14,7 +14,7 @@
                         <ul>
                              <li><a href="#projects" class="active">Projects</a></li>
                              <li><a href="#myskills" class="active">My Skills </a></li>
-                             <li><a href="#contact">Contact me</a></li>
+                             <li><a href="#index1.html">Contact me</a></li>
                        </ul>
                 </div>
                 <h1>Militsa</h1>
@@ -23,8 +23,27 @@
                     and positive place (one web application at a time). <br>
                     My background as a financial trader allows me to be able to work under pressure and meet deadlines. <br>
                     My move from Bulgaria to the U.S.A. was a huge change in perspective, but this experience allows me to view a challenge <br>
-                    or problem from multiple points of view! I excel at coming up with solutions – no matter what gets thrown at me – and I am always excited for new challenges.
+                    or problem from multiple points of view! I excel at coming up with solutions – no matter what gets thrown at me – and I am always excited for new challenges.<br>
                 </p>
+
+             
+                
+               <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Check My Resume</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p><iframe src="https://resume.creddle.io/embed/dewwmoyb6gr"
+                            width="850" height="1100" seamless></iframe> 
+                          </p>
+                    </div>
+
+                    </div>
+                                        
                <!--   <p> Design is not just what it looks like and feels like.Design is how it works.<br />
                         Steve Jobs
                 </p> -->
@@ -39,11 +58,12 @@
                 Flower
             </h2>
             <div class="title">
-                <p><a name="projects">Hangman is awesome</p>
+                <p><a name="projects">Hangman - guess the flowers.<br>
+                    Used technologies: Java script, Html, CSS</a></p>
             </div>
             <div class="link_icon">
                 <div>
-                    <a href="projects" href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
+                    <a href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
                         <i class="fa fa-link mx-2" aria-hidden="true">
                         </i>
                     </a>
@@ -57,11 +77,12 @@
         <div id="project2">
                 <h2 class="project_name">React Calculator</h2> 
              <div class="title">              
-                <p><a name="projects">...................</p>
+                <p><a name="projects">...................</a>
+                </p>
              </div>
              <div class="link_icon">
                     <div>
-                        <a href="projects" href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
+                        <a href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
                             <i class="fa fa-link mx-2" aria-hidden="true">
                             </i>
                         </a>
@@ -75,11 +96,12 @@
         <div id="project3">
                  <h2 class="project_name">Catherine Federe Real Estate</h2>
             <div class="title">              
-                 <p><a name="projects">...................</p>
+                 <p><a name="projects">...................</a>
+                 </p>
             </div>
             <div class="link_icon">
                     <div>
-                        <a href="projects" href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
+                        <a href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
                             <i class="fa fa-link mx-2" aria-hidden="true">
                             </i>
                         </a>
@@ -93,11 +115,11 @@
         <div id="project4">
                 <h2 class="project_name">unifinder</h2> 
             <div class="title">               
-                <p><a name="projects">...................</p>
+                <p><a name="projects">...................</a></p>
             </div>
             <div class="link_icon">
                     <div>
-                        <a href="projects" href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
+                        <a href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
                             <i class="fa fa-link mx-2" aria-hidden="true">
                             </i>
                         </a>
@@ -111,11 +133,11 @@
         <div id="project5">
                 <h2 class="project_name">Movies</h2>   
            <div class="title">         
-                <p><a name="projects">....................</p>
+                <p><a name="projects">....................</a></p>
            </div>
            <div class="link_icon">
                 <div>
-                    <a href="projects" href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
+                    <a href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
                         <i class="fa fa-link mx-2" aria-hidden="true">
                         </i>
                     </a>
@@ -129,11 +151,11 @@
         <div id="project6">
                 <h2 class="project_name">Project 6</h2>  
             <div class="title">                                             
-                <p><a name="projects">..................</p>
+                <p><a name="projects">..................</a></p>
             </div>
             <div class="link_icon">
                     <div>
-                        <a href="projects" href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
+                        <a href="http://cowboy-eagle-64041.bitballoon.com/" target="_blank">
                             <i class="fa fa-link mx-2" aria-hidden="true">
                             </i>
                         </a>
@@ -259,6 +281,32 @@
                 </form> -->
                 
             <!-- </div> -->
-       
+            <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on the button, open the modal 
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
 </body>
 </html>
