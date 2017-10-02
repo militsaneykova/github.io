@@ -132,19 +132,12 @@ ul li:hover{
   font-size: 10px;
   color: white;
 }
- /* .link_icon{ */
-  /* transition: 0.5 ease; */
-  /* opacity: 0; */
-  /* position: absolute;  */
-  /* transform: translate(-50%, -50%); */
-  /* visibility: hidden;
+ .link_icon i {
+  font-size: 20px;
+  color: white;
+  /* background-color: white; */
  } 
- .link_icon :hover{ */
-  /* background-color: black; */
-  /* color: white; */
-  /* border-radius: 40%; */
-  /* visibility: visible;
-}  */
+ 
 
 /* Skills section */
 .skills{
