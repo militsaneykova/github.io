@@ -118,16 +118,15 @@ ul li:hover{
   font-size: 25px;
 }
 .project_name{
-  position: absolute;
+  margin-top: 70px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: center;
   width: 100%;
   color: white;
   letter-spacing: .1em;
-
 }
 .title{
-  margin-top: 140px;
   font-size: 10px;
   color: white;
 }
