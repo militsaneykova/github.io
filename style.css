@@ -98,6 +98,7 @@ ul li:hover{
   text-align: center;
   padding: 5px;
 }
+
 #project1, #project2, #project3, #project4, #project5, #project6{
   width: 33%;
   height: 300px;
@@ -106,35 +107,87 @@ ul li:hover{
   color:white;
   overflow: hidden;
   position: relative;
-  background-image: url("images/pic.jpg");
+  /* background-image: url("images/pic.jpg"); */
   filter: grayscale(100%);
+}
+#project1{
+  background: url("images/project1.png") no-repeat; 
+  background-position: center;
+  background-size: 480px 400px ;
+}
+#project2{
+  background: url("images/project2.png"); 
+  background-position: center;
+  background-size: 490px 440px ;
+}
+#project3{
+  background: url("images/project3.png");
+  background-position: center;
+  background-size: 480px 400px ; 
+}
+#project4{
+  background: url("images/project4.png"); 
+  background-position: center;
+  background-size: 480px 400px ;
+}
+#project5{
+  background: url("images/smile.jpg"); 
+  background-position: center;
+  background-size: 480px 400px ;
+}
+#project6{
+  background: url("images/smoke.jpeg"); 
+  background-position: center;
+  background-size: 480px 400px ;
 }
 .projects #project1:hover, .projects #project3:hover, .projects #project2:hover,
  .projects #project4:hover, .projects #project5:hover, .projects #project6:hover{
   filter: grayscale(0);
   transition: 1s ease-in-out;
 }
-#project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p{
+#project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p  {
   font-size: 25px;
 }
 .project_name{
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 5px;
   display: flex;
   justify-content: center;
   width: 100%;
   color: white;
   letter-spacing: .1em;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.link_icon i{
+opacity: 0;
+}
+#project1:hover i, #project2:hover i, #project3:hover i, #project4:hover i, #project5:hover i, #project6:hover i{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  transition: linear 0.5s;
+  }
+#project1:hover p, #project2:hover p, #project3:hover p, #project4:hover p, #project5:hover p, #project6:hover p {
+  opacity: 0;
+  transition: linear 0.5s; 
 }
 .title{
   font-size: 10px;
   color: white;
+  /* background-color: rgba(0, 0, 0, 0.5);   */
+}
+.title :hover{
+  display: none;
 }
  .link_icon i {
   font-size: 20px;
   color: white;
   margin-top: 20px;
-  /* background-color: white; */
  } 
  
 
