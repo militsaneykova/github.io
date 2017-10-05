@@ -136,14 +136,14 @@ ul li:hover{
   background-size: 480px 400px ;
 }
 #project5{
-  background: url("images/smile.jpg"); 
+  background: url("images/weather.png"); 
   background-position: center;
-  background-size: 480px 400px ;
+  background-size: 300px 400px ;
 }
 #project6{
   background: url("images/smoke.jpeg"); 
   background-position: center;
-  background-size: 480px 400px ;
+  background-size: 460px 450px ;
 }
 .projects #project1:hover, .projects #project3:hover, .projects #project2:hover,
  .projects #project4:hover, .projects #project5:hover, .projects #project6:hover{
