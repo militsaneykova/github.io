@@ -101,8 +101,8 @@ ul li:hover{
   width: 100%;
   text-align: center;
   padding: 5px;
+  font-family: 'EB Garamond', serif;
 }
-
 #project1, #project2, #project3, #project4, #project5, #project6{
   width: 33%;
   height: 300px;
@@ -110,12 +110,8 @@ ul li:hover{
   color:white;
   overflow: hidden;
   position: relative;
-  /* opacity: 0.5; */
   transition: 0.5s ease;
   backface-visibility: hidden;
-  filter: grayscale(100%);
-  /* background-color: rgba(0, 0, 0,0.1); */
-  /* backface-visibility: hidden; */
   cursor: pointer;
 }
 #project1{
@@ -151,30 +147,38 @@ ul li:hover{
 }
 .projects #project1:hover, .projects #project3:hover, .projects #project2:hover,
  .projects #project4:hover, .projects #project5:hover, .projects #project6:hover{
-  filter: grayscale(0);
   transition: 1s ease-in-out;
   opacity: 1;
 }
 #project1 p, #project2 p, #project3 p, #project4 p, #project5 p, #project6 p  {
-  font-size: 25px;
+  font-size: 20px;
+}
+.backface{
+   background-color: rgba(0, 0, 0, 0.7);
+   transition: 0.5s ease;
+}
+.backface:hover {
+  background-color: transparent;
 }
 .project_name{
-  /* margin-top: 50px; */
-  /* margin-bottom: 5px; */
+  padding-top: 70px;
   display: flex;
   justify-content: center;
   width: 100%;
   color: white;
   letter-spacing: .1em;
-  background-color: rgba(0, 0, 0, 0.3);
   flex-direction: column;
 }
 .link_icon i{
-opacity: 0;
+  opacity: 0;
+}
+#project1:hover h2, #project2:hover h2, #project3:hover h2, #project4:hover h2, #project5:hover h2, #project6:hover h2{
+  opacity: 0;
+  transition: linear 0.5s; 
 }
 #project1:hover i, #project2:hover i, #project3:hover i, #project4:hover i, #project5:hover i, #project6:hover i{
   opacity: 1;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   width: 40px;
   height: 40px;
@@ -187,12 +191,14 @@ opacity: 0;
   opacity: 0;
   transition: linear 0.5s; 
 }
+#project1 i:hover,#project2 i:hover, #project3 i:hover, #project4 i:hover, #project5 i:hover, #project6 i:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .title{
   font-size: 10px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);  
   width: 100%;
-  height: 200px;
+  height: 30px;
 }
 .title :hover{
   display: none;
@@ -200,19 +206,12 @@ opacity: 0;
  .link_icon i {
   font-size: 20px;
   color: white;
-  margin-top: 20px;
  } 
-  /* .link_icon a{
-   background-color: rgba(0, 0, 0, 0.3);
-  } */
  .link_icon{
-   height: 300px;
+   height: 250px;
    width: 100%;
-   background-color: rgba(0, 0, 0, 0.5);
  }
- /* .link_icon:hover a{
-   background-color: none;
- }  */
+ 
 /* Skills section */
 .skills{
   margin-top: 50px;
