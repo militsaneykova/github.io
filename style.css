@@ -160,21 +160,21 @@ ul li:hover{
 }
 .project_name{
   /* margin-top: 50px; */
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   display: flex;
   justify-content: center;
   width: 100%;
   color: white;
   letter-spacing: .1em;
   background-color: rgba(0, 0, 0, 0.3);
-
+  flex-direction: column;
 }
 .link_icon i{
 opacity: 0;
 }
 #project1:hover i, #project2:hover i, #project3:hover i, #project4:hover i, #project5:hover i, #project6:hover i{
   opacity: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   width: 40px;
   height: 40px;
@@ -192,7 +192,7 @@ opacity: 0;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);  
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 .title :hover{
   display: none;
@@ -202,7 +202,17 @@ opacity: 0;
   color: white;
   margin-top: 20px;
  } 
- 
+  /* .link_icon a{
+   background-color: rgba(0, 0, 0, 0.3);
+  } */
+ .link_icon{
+   height: 300px;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+ /* .link_icon:hover a{
+   background-color: none;
+ }  */
 /* Skills section */
 .skills{
   margin-top: 50px;
