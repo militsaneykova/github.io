@@ -231,13 +231,17 @@ ul li:hover{
   flex-wrap: wrap; 
   margin-left: 250px;
 }
-.js, .html, .css, .node, .ruby, .rails, .ajax, .sql, .express, .react, .jquery, .heroku{
+.js, .html, .css, .rails, .ajax, .sql, .express, .react, .jquery, .heroku{
   width: 70px;
   height: 70px;
   display: flex;
   flex-direction: column;
   font-size: 20px;
   filter: grayscale(100%);  
+}
+ .node, .ruby{
+  width: 70px;
+  height: 90px;
 }
 .js:hover ,.html:hover, .css:hover, .node:hover, .ruby:hover, .rails:hover, .ajax:hover, .sql:hover, .express:hover, .react:hover, .jquery:hover, .heroku:hover{
   filter: grayscale(0);
