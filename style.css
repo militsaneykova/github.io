@@ -224,18 +224,19 @@ ul li:hover{
 }  
 .skill_col_1{
   margin-top: 50px;
-  width: 760px;;
+  width: 650px;
   height: 500px;
   display: flex; 
   justify-content: space-around; 
   flex-wrap: wrap; 
-  margin-left: 250px;
+  margin-left: 300px;
 }
 .js, .html, .css, .node, .ruby, .rails, .ajax, .sql, .express, .react, .jquery, .heroku{
   width: 70px;
   height: 70px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   font-size: 20px;
   filter: grayscale(100%);  
 }
@@ -243,9 +244,12 @@ ul li:hover{
   filter: grayscale(0);
   transition: 1s ease-in-out;
 }
-.html, .css, .node, .ruby, .rails, .ajax, .sql, .express, .react, .jquery, .heroku{
+.html, .css, .node, .ruby, .rails, .sql, .express, .react, .jquery, .heroku{
   margin-top: 20px;
   margin-left: 35px; 
+}
+.ajax {
+  margin-top: 20px;
 }
  #html, #css{
   width: 65px;
